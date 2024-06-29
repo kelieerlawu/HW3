@@ -1,0 +1,5 @@
+self_supervised_model.py：自监督训练，获取自监督权重；直接运行文件即可
+supervised_model.py：模型文件，需要在文件中修改模型是否经过预训练
+train_self_supervised_model.py：训练加载自监督训练权重的模型，直接运行文件即可
+train_supervised_model.py：训练加载在imagenet上监督学习预训练的模型，直接运行文件即可
+train_unpre_model.py：训练未经预训练的模型，直接运行文件即可
